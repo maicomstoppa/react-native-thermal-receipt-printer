@@ -15,16 +15,16 @@ const r_end_bytes = Buffer.from([]);
 const default_space_bytes = Buffer.from([27, 50]);
 
 const reset_bytes = Buffer.from([27, 97, 0, 29, 33, 0, 27, 50]);
-const m_start_bytes = Buffer.from([27, 33, 16, 28, 33, 8]);
-const m_end_bytes = Buffer.from([27, 33, 0, 28, 33, 0]);
+const m_start_bytes = Buffer.from([27, 33, 16]);//Buffer.from([27, 33, 16, 28, 33, 8]);
+const m_end_bytes = Buffer.from([27, 33, 0]);//Buffer.from([27, 33, 0, 28, 33, 0]);
 const b_start_bytes = Buffer.from([27, 33, 48, 28, 33, 12]);
 const b_end_bytes = Buffer.from([27, 33, 0, 28, 33, 0]);
 const cm_start_bytes = Buffer.from([27, 97, 1, 27, 33, 16, 28, 33, 8]);
 const cm_end_bytes = Buffer.from([27, 33, 0, 28, 33, 0]);
 const cb_start_bytes = Buffer.from([27, 97, 1, 27, 33, 48, 28, 33, 12]);
 const cb_end_bytes = Buffer.from([27, 33, 0, 28, 33, 0]);
-const cd_start_bytes = Buffer.from([27, 97, 1, 27, 33, 32, 28, 33, 4]);
-const cd_end_bytes = Buffer.from([27, 33, 0, 28, 33, 0]);
+const cd_start_bytes = Buffer.from([27, 97, 1, 27, 33, 32]);//Buffer.from([27, 97, 1, 27, 33, 32, 28, 33, 4]);
+const cd_end_bytes = Buffer.from([27, 33, 0, 28, 33, 0]);//Buffer.from([27, 33, 0, 28, 33, 0]);
 const d_start_bytes = Buffer.from([27, 33, 32, 28, 33, 4]);
 const d_end_bytes = Buffer.from([27, 33, 0, 28, 33, 0]);
 
